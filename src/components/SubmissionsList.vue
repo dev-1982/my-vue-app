@@ -54,7 +54,6 @@ onMounted(load)
 
 async function load() {
   
-
 const res = await fetch(`${API_BASE}/submissions?limit=1000`)
   items.value = await res.json()
 }

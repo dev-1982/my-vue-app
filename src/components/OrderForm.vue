@@ -83,8 +83,7 @@ async function onSubmit() {
   submitting.value = true
   try {
     
-
-const res = await fetch(`${API_BASE}/submissions`, {
+      const res = await fetch(`${API_BASE}/submissions`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       // Backend-agnostic payload: formId + data map
