@@ -15,9 +15,9 @@
         <label for="product">Product</label>
         <select id="product" v-model="form.product">
           <option value="">Select a product</option>
-          <option value="Widget A">Widget A</option>
-          <option value="Widget B">Widget B</option>
-          <option value="Widget Pro">Widget Pro</option>
+          <option value="Widget A">Iphone 10</option>
+          <option value="Widget B">Iphone 13</option>
+          <option value="Widget Pro">Apple Watch Ultra</option>
         </select>
         <p v-if="errors.product" class="error">{{ errors.product }}</p>
       </div>
